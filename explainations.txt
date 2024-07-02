@@ -1,0 +1,5 @@
+"top_directors = df['director'].value_counts().head(5)   " :
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+1- df['director'] sélectionne la colonne "director" du DataFrame df, qui contient les noms des réalisateurs.
+2-.value_counts() compte le nombre d'occurrences de chaque valeur unique dans cette colonne, donc le nombre de films pour chaque réalisateur.
+3- .head(5) sélectionne les cinq premières lignes de cette série de valeurs, ce qui donne les cinq réalisateurs les plus fréquents.
